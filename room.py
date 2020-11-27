@@ -2,7 +2,7 @@ import json
 
 def room_check(num,arr,dept):
   """
-  It checks whether the room can be booked if it does not lie in the given timeframe.
+  It checks whether the Compound can be booked if it does not lie in the given timeframe.
   """
   if num in range(arr,dept): 
     return True
@@ -16,7 +16,7 @@ def room_check(num,arr,dept):
 
 def on_choice():
   """
-  It decides whether or not to continue room booking.
+  It decides whether or not to continue Compound booking.
   """
 
   choice = 'wrong'
@@ -35,7 +35,7 @@ def on_choice():
 
 def user_choice_arr():
   """
-  Enters the user Input with validation on Arrival Time.
+  Enters the user Input with validation on Login Time.
   """
   choice = 'wrong'
   acceptable_range = range(0,24)
@@ -61,7 +61,7 @@ def user_choice_arr():
 
 def user_choice_dept():
   """
-  Enters the user Input with validation on Departure Time.
+  Enters the user Input with validation on Logoff Time.
   """
   choice = 'wrong'
   acceptable_range = range(0,24)
@@ -153,7 +153,7 @@ try:
     while book_on:
       pname = input("Please Enter Your Name: ")
 
-      print("Welcome Mr.\Ms. {}  to the Datopic Hotel, For How much duration would you like to stay with us".format(pname))
+      print("Welcome Mr.\Ms. {}  to the KECians Ally Compound, For How much duration would you like to stay with us".format(pname))
       parr = user_choice_arr()
       if room_check(parr, l_arr[-1], l_dept[-1]):
          print("Compound Cannot be booked as our Inventory is Full, You can register for any other time with us. Sorry for Inconvenience")
