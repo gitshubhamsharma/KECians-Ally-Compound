@@ -1,3 +1,5 @@
+#Program for Making Compound where people can talk with each other.
+
 import json
 
 def room_check(num,arr,dept):
