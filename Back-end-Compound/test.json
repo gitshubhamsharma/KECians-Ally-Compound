@@ -1,0 +1,19 @@
+{
+  "Users": [
+    {
+      "Name": "",
+      "Arrival": -1,
+      "Departure": -1
+    },
+    {
+      "Name": "Shubham",
+      "Arrival": 13,
+      "Departure": 15
+    },
+    {
+      "Name": "SK",
+      "Arrival": 19,
+      "Departure": 21
+    }
+  ]
+}
