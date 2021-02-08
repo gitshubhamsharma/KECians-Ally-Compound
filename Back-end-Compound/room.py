@@ -104,7 +104,7 @@ try:
 
         pname = input("Please Enter Your Name: ")
 
-        print("Welcome Mr.\Ms. {}  to the Datopic Hotel, For How much duration would you like to stay with us".format(pname))
+        print("Welcome Mr.\Ms. {}  to the KECians Ally Compound, For How much duration would you like to stay with us".format(pname))
 
         user_choice_input = user_choice()
         par, dar = user_choice_input
@@ -150,20 +150,20 @@ try:
         while book_on:
             pname = input("Please Enter Your Name: ")
 
-            print("Welcome Mr.\Ms. {}  to the Datopic Hotel, For How much duration would you like to stay with us".format(pname))
+            print("Welcome Mr.\Ms. {}  to the KECians Ally Compound, For How much duration would you like to stay with us".format(pname))
             user_choice_input = user_choice()
             par, dar = user_choice_input
 
             parr = par
             if room_check(parr, l_arr[-1], l_dept[-1]):
-                print("Room Cannot be booked as our Inventory is Full, You can register for any other time with us. Sorry for Inconvenience")
+                print("Compound Cannot be booked as our Inventory is Full, You can register for any other time with us. Sorry for Inconvenience")
                 continue
 
             l_arr.append(parr)
 
             pdept = dar
             if room_check(parr, l_arr[-1], l_dept[-1]):
-                print("Room Cannot be booked as our Inventory is Full, You can register for any other time with us. Sorry for Inconvenience")
+                print("Compound Cannot be booked as our Inventory is Full, You can register for any other time with us. Sorry for Inconvenience")
                 continue
 
             l_dept.append(pdept)
